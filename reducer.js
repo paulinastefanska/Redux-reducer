@@ -3,6 +3,8 @@ const initialState = {
     users: []
 };
 
+import {ADD_COMMENT} from './actions'
+
 function reducer(state = initialState, action) {
     switch(action.type) {
         case ADD_COMMENT:
